@@ -1,0 +1,62 @@
+Before learning how to program, you need to first understand how a computer
+interprets programs.
+
+Modern computer architecture is based off of an architecture called the
+Von Neumann architecture, named after it's creator. The Von Neumann architecture
+divides the computer into two main parts.
+- The CPU (Central Processing Unit)
+- The Memory
+This architecture is used in all modern computers (personal computers,
+supercomputers, mainframes, cellphones).
+
+----------------------------
+Structure of Computer Memory
+----------------------------
+To Understand how the computer views memory, imagine your local post office.
+They have a room filled with PO Boxes. These boxes are similar to computer
+memory, in that each are numberd sequences of fixed-size storage locations.
+
+For example, if you have 256mb of memory, that means your computer contains
+roughly 256 million fixed-size storage locations. Or, to use our analogy, 256
+million PO Boxes. Each location has a number, and each location as the same,
+fixed-length size.
+
+The difference between a PO Box and computer memory is that you can store all
+different kinds of things in a PO Box, but you can only store a single number
+in a computer memory storage location.
+
+------------------------
+[2204][2205][2206][2207]
+[2208][2209][2210][2211]
+[2212][2213][2214][2215]
+[2216][2217][2218][2219]
+------------------------
+Memory locations are like PO Boxes
+
+A computer is organized this way as it is simple to implement. If the computer
+were composed of a lot of differently-sized locations, or if you could store
+different kinds of data in them, it would be difficult and expensive to implement.
+
+The computer's memory is used for a number ofdifferent things. All of the results
+of any calculations are stored in memory. In fact, everything that is "stored" is
+stored in memory. Think of your computer at home, and imagine what all is stored
+in your computer's memory.
+
+- The location of your cursor on the screen
+- The size of each window on the screen
+- The shape of each letter of each font being used
+- The layout of all the controls on each window
+- The graphics for all the toolbar icons
+- The text for each error message and dialog box
+- The list goes on and on...
+
+The Von Neumann architecture specifies that not only computer data shoud live in
+memory, but the programs that control the computer's operations should live there,
+too. In fact, in a computer, there is no difference between a program and a
+program's data except how it is used by the computer. They are both stored and
+accessed the same way.
+
+-------
+The CPU (to be continued)
+-------
+
