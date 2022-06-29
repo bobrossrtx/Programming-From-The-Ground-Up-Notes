@@ -1,0 +1,42 @@
+keyboard -> kernel -> windowing system -> application program
+
+- kernel controls flow of information between programs
+- The kernel controls everything
+- Keyboard sends scan codes to kernel
+- Kernel sends codes to windowing system, which sends to application
+
+- The kernel prevents programs from accidently overwriting each other's data
+    and accessing files and devices that they don't have permission to.
+- Limits the amount of damage a poorly-written program can do to other
+    running programs.
+
+- Kernel won't do anything on its own
+- Kernel requires a bootloader to load the kernel
+- The kernel requires events to take place to do anything
+- Think of the kernel as water pipes for a houw. Wthout the pipes,
+    the faucets won't work, but the pipes are pretty useless if there
+    are no faucets.
+- Together, user applications and the kernel make up an entire operating system.
+
+(For the most part, the book uses the computer's low-level assembly language)
+
+Three Kinds of Language:
+
+- Machine Language:
+    This is what the computer actually sees and deals with. Every command the
+    computer sees is given as a number or sequence of numbers.
+
+- Assembly Language:
+    This is the same as machine language, except the command numbers have been
+    replaced by letter sequences which are easier to memorize. Other small
+    things are done to make it easier as well.
+
+- High-Level Language:
+    High-level languages are tehre to make programming easier. Assembly language
+    requires you to work with the machine itself. High-level languages allow
+    you to describe the program in a more natural language. A single command in a
+    high-level language usually is equivalent to several commands in an assembly
+    language.
+
+The book helps you learn assembly language, will also cover a bit of high-level
+languages.
